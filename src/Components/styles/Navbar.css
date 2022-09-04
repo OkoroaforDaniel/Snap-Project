@@ -1,0 +1,249 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Roboto", sans-serif; */
+}
+.snapIcon {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 110px;
+  height: 35px;
+}
+.Nav {
+  display: flex;
+  justify-content: space-between;
+}
+.NavLink {
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+  cursor: pointer;
+}
+.NavBtnLink {
+  border-radius: 10px;
+  height: 20px;
+  background: white;
+  padding: 10px 22px;
+  color: grey;
+  border: 2px solid grey;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+.NavBtn {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.NavMenu {
+  display: flex;
+  align-items: center;
+  margin-left: -300px;
+  margin-top: 5px;
+}
+.mobileMenuCollapsed {
+  transition: width 2s, height 4s;
+}
+/* img.arrowDown-feature-desktop {
+  z-index: 1;
+  margin-right: 100px;
+  margin-top: 0px;
+  width: 10px;
+  height: 5px;
+} */
+.careerAbout {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 0px 50px;
+}
+img.arrowUp-feature-desktop {
+  z-index: 1;
+  margin-right: 60px;
+  margin-top: 0px;
+  width: 10px;
+  height: 5px;
+}
+a.feature-desktop {
+  /* margin-bottom: -1000px; */
+  text-decoration: none;
+  color: grey;
+  font-size: 10px;
+}
+.dropdown-content-feature-desktop {
+  background-color: white;
+  margin-left: -240px;
+  margin-top: 10px;
+  width: 150px;
+  height: 170px;
+  border-radius: 10px;
+}
+div.dropdown-content-company {
+  width: 90px;
+  height: 100px;
+  /* margin-top: -20px; */
+}
+/* img.arrowUp-company-desktop {
+  margin-right: 30px;
+  margin-top: 5px;
+  width: 10px;
+  height: 5px;
+} */
+/* img.arrowDown-company-desktop {
+  margin-left: 100px;
+  width: 10px;
+  height: 5px;
+} */
+.company-arrowdown-desktop {
+  width: 100px;
+}
+.dropdown-content-company-desktop {
+  background-color: white;
+  font-size: 12px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+.company-desktop {
+  margin-top: -10px;
+  margin-bottom: -300px;
+  text-decoration: none;
+  color: grey;
+  margin-left: 20px;
+}
+#Hlist-company-desktop {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.Bars {
+  display: none;
+  color: black;
+}
+.NavLinkCareers {
+  margin-right: 20px;
+  text-decoration: none;
+  color: grey;
+}
+.NavLinkAbout {
+  margin-left: 20px;
+  text-decoration: none;
+  color: grey;
+}
+.NavLinkFeatures {
+  margin-top: 15px;
+  margin-left: -160px;
+  color: grey;
+}
+.NavLinkCompany {
+  color: grey;
+}
+.laptopFeaturesDropdown {
+  margin-top: -830px;
+  margin-bottom: -1000px;
+  margin-left: 80px;
+}
+.laptopFeatureDropup {
+  margin-top: -15px;
+  margin-left: 100px;
+}
+.featuresArrow {
+  margin-top: 15px;
+}
+/* .company-full-desktop{
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+} */
+
+@media screen and (max-width: 1100px) {
+  .mobileMenuCollapsed {
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: 100%;
+    margin-left: 50%;
+    display: unset;
+    font-size: 40px;
+    color: grey;
+  }
+  .collapsedDiv {
+    list-style-type: none;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  a {
+    margin-bottom: 10%;
+    text-decoration: none;
+    color: gray;
+  }
+  .Bars {
+    display: block;
+    position: absolute;
+    font-weight: bolder;
+    width: 40px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .NavMenu {
+    display: none;
+  }
+  .NavBtn {
+    display: none;
+  }
+  #companyList {
+    margin-top: 50px;
+  }
+  #Hlist {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
+  #Clist {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content {
+    margin-left: 20px;
+    padding: 20px;
+  }
+  div #arrowUp {
+    width: 30px;
+    height: 20px;
+    margin-left: 30px;
+  }
+  div #arrowDown {
+    width: 30px;
+    height: 20px;
+    margin-left: 30px;
+  }
+  .collapsedButton {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-left: 50px;
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+    color: grey;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid grey;
+  }
+}
