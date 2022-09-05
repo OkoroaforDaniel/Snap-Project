@@ -11,6 +11,9 @@
   width: 110px;
   height: 35px;
 }
+.NavBar{
+  background-color: whitesmoke;
+}
 .Nav {
   display: flex;
   justify-content: space-between;
@@ -132,19 +135,36 @@ div.dropdown-content-company {
   text-decoration: none;
   color: grey;
 }
+.NavLinkCareers:hover{
+  color: black;
+}
 .NavLinkAbout {
   margin-left: 20px;
   text-decoration: none;
   color: grey;
+}
+.NavLinkAbout:hover{
+  color: black;
 }
 .NavLinkFeatures {
   margin-top: 15px;
   margin-left: -160px;
   color: grey;
 }
+.NavLinkFeatures:hover{
+  color: black;
+}
 .NavLinkCompany {
   color: grey;
 }
+.NavLinkCompany:hover{
+  color: black;
+}
+.NavBtnLink:hover{
+  color: black;
+  border: 2px solid black;
+}
+
 .laptopFeaturesDropdown {
   margin-top: -830px;
   margin-bottom: -1000px;
@@ -165,6 +185,9 @@ div.dropdown-content-company {
 } */
 
 @media screen and (max-width: 1100px) {
+  .NavBar{
+    background-color: white;
+  }
   .mobileMenuCollapsed {
     background-color: white;
     position: absolute;
