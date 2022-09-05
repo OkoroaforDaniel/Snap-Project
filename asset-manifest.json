@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/Snap-Project/static/css/main.b1bdc3fe.css",
-    "main.js": "/Snap-Project/static/js/main.8eb413d5.js",
+    "main.css": "/Snap-Project/static/css/main.3e960f79.css",
+    "main.js": "/Snap-Project/static/js/main.c1816783.js",
     "static/media/image-hero-desktop.png": "/Snap-Project/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/image-hero-mobile.png": "/Snap-Project/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
-    "static/media/welcome-sign-hand-lettering-text-for-posters-and-greeting-cards-design-modern-calligraphy-for-your-unique-design-welcome-word-isolated-on-white-background-vector.jpeg": "/Snap-Project/static/media/welcome-sign-hand-lettering-text-for-posters-and-greeting-cards-design-modern-calligraphy-for-your-unique-design-welcome-word-isolated-on-white-background-vector.18e606b9c66de7ce25a3.jpeg",
-    "static/media/hello.jpeg": "/Snap-Project/static/media/hello.447786b1dd6faf2117c4.jpeg",
     "static/media/client-databiz.svg": "/Snap-Project/static/media/client-databiz.d1e7955f847e089183caf61eb54feb51.svg",
     "static/media/logo.svg": "/Snap-Project/static/media/logo.1c174ccea84ec59ff8801662c788919d.svg",
     "static/media/client-maker.svg": "/Snap-Project/static/media/client-maker.3859368b1ba7e579d814353870c9edb0.svg",
@@ -20,11 +18,11 @@
     "static/media/icon-menu.svg": "/Snap-Project/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
     "static/media/icon-arrow-down.svg": "/Snap-Project/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
     "static/media/icon-arrow-up.svg": "/Snap-Project/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
-    "main.b1bdc3fe.css.map": "/Snap-Project/static/css/main.b1bdc3fe.css.map",
-    "main.8eb413d5.js.map": "/Snap-Project/static/js/main.8eb413d5.js.map"
+    "main.3e960f79.css.map": "/Snap-Project/static/css/main.3e960f79.css.map",
+    "main.c1816783.js.map": "/Snap-Project/static/js/main.c1816783.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1bdc3fe.css",
-    "static/js/main.8eb413d5.js"
+    "static/css/main.3e960f79.css",
+    "static/js/main.c1816783.js"
   ]
 }
