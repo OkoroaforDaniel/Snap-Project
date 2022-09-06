@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Body />} />
         <Route path="/Careers" element={<Careers />} />
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Register" element={<Register />} />
         <Route path="/Learnmore" element={<Learnmore />} />
       </Routes>
+      </BrowserRouter>
     </div>
   );
 }
