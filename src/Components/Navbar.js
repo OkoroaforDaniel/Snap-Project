@@ -12,6 +12,8 @@ import arrowDown from "../Icons/icon-arrow-down.svg";
 import arrowUp from "../Icons/icon-arrow-up.svg";
 import Menu from "../Icons/icon-menu.svg";
 
+// check if evreything is up to date
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [fclick, setFclick] = useState(false);
@@ -63,7 +65,7 @@ function Navbar() {
                     <img id="arrowUp" src={arrowUp} alt="arrowdown" />
                   </div>
 
-                  <div class="dropdown-content">
+                  <div className="dropdown-content">
                     <div id="Hlist">
                       <img
                         src={ListAltIcon}
@@ -136,7 +138,7 @@ function Navbar() {
                     <a>Company</a>
                     <img id="arrowUp" src={arrowUp} alt="arrowdown" />
                   </div>
-                  <div class="dropdown-content">
+                  <div className="dropdown-content">
                     <div id="Hlist">
                       <a href="#">History</a>
                     </div>
@@ -185,7 +187,7 @@ function Navbar() {
                   onClick={handlefeaturesxClick}
                 >
                   <div className="featuresArrow">
-                    <div className="NavLinkFeatures" activeStyle>
+                    <div className="NavLinkFeatures">
                       Features
                     </div>
                     {/* <img
@@ -195,7 +197,7 @@ function Navbar() {
                   /> */}
                   </div>
 
-                  <div class="dropdown-content-feature-desktop">
+                  <div className="dropdown-content-feature-desktop">
                     <div id="Hlist">
                       <img
                         src={ListAltIcon}
@@ -283,7 +285,7 @@ function Navbar() {
                   className="laptopFeatureDropup"
                   onClick={handlefeaturesClick}
                 >
-                  <div className="NavLinkFeatures" activeStyle>
+                  <div className="NavLinkFeatures" >
                     Features
                   </div>
                   {/* <img
@@ -299,13 +301,12 @@ function Navbar() {
                     <div
                       className="NavLinkCompany"
                       onClick={handleCompanyxClick}
-                      activeStyle
                     >
                       Company
                     </div>
                     {/* <img className="arrowUp-company-desktop" src={arrowUp} alt="arrowUp" /> */}
 
-                    <div class="dropdown-content-company-desktop">
+                    <div className="dropdown-content-company-desktop">
                       <div id="Hlist-company-desktop">
                         <a className="company-desktop" href="#">
                           History
@@ -328,7 +329,6 @@ function Navbar() {
                     <div
                       className="NavLinkCompany"
                       onClick={handleCompanyClick}
-                      activeStyle
                     >
                       Company
                     </div>
@@ -340,10 +340,10 @@ function Navbar() {
               </div>
 
               <div className="careerAbout">
-                <Link className="NavLinkCareers" to="/Careers" activeStyle>
+                <Link className="NavLinkCareers" to="/Careers">
                   Careers
                 </Link>
-                <Link className="NavLinkAbout" to="/About" activeStyle>
+                <Link className="NavLinkAbout" to="/About">
                   About
                 </Link>
               </div>
@@ -372,37 +372,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-// import React from "react";
-// import { Link } from "react-router-dom";
-// import "./styles/Navbar.css";
-
-// export const Navbar = () => {
-//   return (
-//     <div className="sum">
-//       <div className="logo">Logo</div>
-
-//       <nav className="item">
-//         <ul className="ul">
-//           <li>
-//             <Link to="/">Home</Link>
-//           </li>
-//           <li>
-//             <Link to="/Careers">Careers</Link>
-//           </li>
-//           <li>
-//             <Link to="/About">About</Link>
-//           </li>
-//           <li>
-//             <Link to="/Login">Login</Link>
-//           </li>
-//           <li>
-//             <Link to="/Register">Register</Link>
-//           </li>
-//         </ul>
-//       </nav>
-//       </div>
-//   );
-// };
-
-// export default Navbar;

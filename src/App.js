@@ -13,8 +13,8 @@ function App() {
   var userIsRegistered = true;
   return (
     <div className="App">
-      <Navbar />
       <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Body />} />
         <Route path="/Careers" element={<Careers />} />
