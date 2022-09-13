@@ -6,33 +6,33 @@ const Register = (props) => {
     <form id="form" style={{ marginTop: 100 }}>
       <div className="backgroundForm">
         <h2 style={{ marginBottom: 40 }}>Register</h2>
-        <input
-          style={{ width: 400, height: 60 }}
+        <input 
+        className="userName"
           type="text"
           placeholder="First Name"
         />
         <br />
-        <input
-          style={{ width: 400, height: 60 }}
+        <input 
+        className="userName"
           type="text"
           placeholder="Last Name"
         />
         <br />
         <input
-          style={{ width: 400, height: 60 }}
+          className="userName"
           type="email"
           placeholder="Email"
         />
         <br />
         <input
-          style={{ width: 400, height: 60 }}
+          className="userName"
           type="password"
           placeholder="Password"
         />
         <br />
         {props.isRegistered === false && (
           <input
-            style={{ width: 400, height: 60 }}
+           className="userName"
             type="password"
             placeholder="Confirm Password"
           />
@@ -44,7 +44,6 @@ const Register = (props) => {
           <a style={{ color: "grey" }}>
             Already have an account?{" "}
             <Link
-              className="collapsedButton"
               to="/Login"
               style={{ border: 0, marginBottom: 0 }}
             >

@@ -67,6 +67,7 @@ form input {
   margin-top: 40px;
 }
 .forgotPassword {
+  font-size: 20px;
   text-align: right;
   margin-top: 20px;
   margin-right: 75px;
@@ -106,23 +107,78 @@ form input {
 .AlreadyHaveAccount {
   margin-top: 30px;
 }
+.userName{
+  width: 400px;
+  height: 60px;
+}
+.password{
+  width: 400px;
+  height: 60px;
+}
 @media screen and (max-width: 1100px) {
   .backgroundForm {
     background-color: white;
+    width: 600px;
+    height: 70px;
   }
   form input {
     background-color: white;
+    width: 600px;
+    height: 70px;
   }
   .GoogleIcon {
     background-color: whitesmoke;
+    width: 600px;
+    height: 70px;
   }
   .LinkedinIcon {
     background-color: whitesmoke;
+    width: 600px;
+    height: 70px;
   }
   .microsoftIcon {
     background-color: whitesmoke;
+    width: 600px;
+    height: 70px;
   }
   .AppleIcon {
     background-color: whitesmoke;
+    width: 600px;
+    height: 70px;
+  }
+  .backgroundForm {
+    border-radius: 15px;
+    background-color: white;
+    width: 700px;
+    height: 1000px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  p .logInWith{
+    margin-top: -50px;
+  }
+  .forgotPassword{
+    margin-right: 20px;
+    font-size: 10px;
+    margin-bottom: 50px;
+  }
+  .line1{
+    margin-left: 50px;
+  }
+  .line2{
+    margin-left: 50px;
+  }
+  .userName{
+    width: 600px;
+    height: 70px;
+  }
+  .password{
+    width: 600px;
+    height: 70px;
+  }
+  .LoginButton{
+    width: 600px;
+    height: 70px;
   }
 }

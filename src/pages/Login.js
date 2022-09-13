@@ -11,14 +11,12 @@ function Login(props) {
     <form id="form">
       <div className="backgroundForm">
         <h2 className="loginHeader">Log in</h2>
-        <input
-          style={{ width: 400, height: 60 }}
+        <input className="userName"
           type="text"
           placeholder="Username"
         />
         <br />
-        <input
-          style={{ width: 400, height: 60 }}
+        <input className="password"
           type="password"
           placeholder="Password"
         />
@@ -30,21 +28,19 @@ function Login(props) {
           {props.isRegistered ? "Login" : "Register"}
         </button>
         <div className="forgotPassword">
-          <a>
-            {" "}
             <Link
-              style={{ color: "grey", textDecoration: "none" }}
-              className="collapsedButton"
+              style={{ color: "grey", textDecoration: "none", border: 0, fontSize: 15 }}
               to="/Register"
             >
               Forgot Password?
-            </Link>{" "}
-          </a>
+            </Link>
         </div>
-        <p style={{ marginTop: 50, fontSize: 15 }}>
-          <hr style={{ width: 100, marginLeft: 100, marginBottom: -12 }}></hr>Or
-          log in with{" "}
+        <p className="logInWith" style={{ marginTop: 50, fontSize: 15 }}>
+        <div className="line1"><hr style={{ width: 100, marginLeft: 100, marginBottom: -12 }}></hr></div>
+          Or log in with
+          <div className="line2">
           <hr style={{ width: 100, marginLeft: 340, marginTop: -10 }}></hr>
+          </div>
         </p>
         <div className="GoogleIcon">
           <img
