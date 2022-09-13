@@ -12,8 +12,6 @@ import arrowDown from "../Icons/icon-arrow-down.svg";
 import arrowUp from "../Icons/icon-arrow-up.svg";
 import Menu from "../Icons/icon-menu.svg";
 
-// check if evreything is up to date
-
 function Navbar() {
   const [click, setClick] = useState(false);
   const [fclick, setFclick] = useState(false);
@@ -164,7 +162,7 @@ function Navbar() {
                 <Link to="/About">About</Link>
               </div>
             </div>
-            <div className="buttonCollapsed">
+            <div onClick={handlexClick} className="buttonCollapsed">
               <Link
                 className="collapsedButton"
                 to="/Login"
@@ -172,7 +170,7 @@ function Navbar() {
               >
                 Login
               </Link>
-              <Link className="collapsedButton" to="Register">
+              <Link className="collapsedButton" to="/Register">
                 Register
               </Link>
             </div>
@@ -187,9 +185,7 @@ function Navbar() {
                   onClick={handlefeaturesxClick}
                 >
                   <div className="featuresArrow">
-                    <div className="NavLinkFeatures">
-                      Features
-                    </div>
+                    <div className="NavLinkFeatures">Features</div>
                     {/* <img
                     className="arrowUp-feature-desktop"
                     src={arrowUp}
@@ -285,9 +281,7 @@ function Navbar() {
                   className="laptopFeatureDropup"
                   onClick={handlefeaturesClick}
                 >
-                  <div className="NavLinkFeatures" >
-                    Features
-                  </div>
+                  <div className="NavLinkFeatures">Features</div>
                   {/* <img
                     className="arrowDown-feature-desktop"
                     src={arrowDown}
